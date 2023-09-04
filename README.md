@@ -8,28 +8,38 @@ Download last version of Debian 12
 
 ### 1. update and install packages
 
-<p>sudo apt-get update
-sudo apt-get install ca-certificates curl gnupg</p>
+```
+sudo apt-get update sudo apt-get install ca-certificates curl gnupg
+```
 
 ### 2. add docker's GPG key
 
-<p>sudo install -m 0755 -d /etc/apt/keyrings
+```
+sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg</p>
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+```
 
 ### 3. setup repository
 
-<p>echo \
+```echo \
   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null</p>
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
 
 ### 4. update ur packages and install docker
 
-  <p>sudo apt-get update</p>
+```
+sudo apt-get update
+```
 
-  <p>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</p>
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
 ### 5. verify if docker is installed correctly
 
-  <p>sudo docker run hello-world</p>
+```
+sudo docker run hello-world
+```
