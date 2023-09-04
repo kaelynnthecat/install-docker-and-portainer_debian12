@@ -77,4 +77,4 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
  ```
 
  copy ur ipv4 address and paste to ur browser w/ port (9443)<br>
- <i>example: 192.168.1.55:9443</i>
+ <i>example: https://192.168.1.55:9443</i>
