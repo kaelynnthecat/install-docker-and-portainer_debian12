@@ -45,3 +45,36 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 sudo docker run hello-world
 ```
+
+<h1>install portainer</h1>
+
+### create volume for portainer
+
+```
+docker volume create portainer_data
+```
+
+### install portainer
+
+> Community Edition
+
+```
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+> Business Edition
+
+```
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+```
+
+### login portainer
+
+3. login to portainer
+ 
+ ```
+ ip a
+ ```
+
+ copy ur ipv4 address and paste to ur browser w/ port (9443)<br>
+ <i>example: 192.168.1.55:9443</i>
