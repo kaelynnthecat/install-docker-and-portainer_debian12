@@ -2,7 +2,7 @@
 
 <h1>download Debian 12</h1>
 
-# update and install packages
+### update and install packages
 
 <p>sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg</p>
