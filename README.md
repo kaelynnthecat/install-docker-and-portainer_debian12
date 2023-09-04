@@ -9,7 +9,8 @@ Download last version of Debian 12
 ### 1. update and install packages
 
 ```
-sudo apt-get update sudo apt-get install ca-certificates curl gnupg
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
 ```
 
 ### 2. add docker's GPG key
