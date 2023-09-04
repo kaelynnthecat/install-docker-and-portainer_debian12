@@ -2,6 +2,10 @@
 
 <h1>download Debian 12</h1>
 
+### IMPORTANT
+
+Download last version of Debian 12
+
 ### 1. update and install packages
 
 <p>sudo apt-get update
