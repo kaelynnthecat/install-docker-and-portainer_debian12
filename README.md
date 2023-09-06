@@ -6,7 +6,7 @@
 
 Download last version of Debian 12
 
-<img src="https://brandslogos.com/wp-content/uploads/images/large/docker-logo.png">
+<img src="https://w7.pngwing.com/pngs/298/299/png-transparent-docker-yaml-github-repository-github-text-logo-fedora.png">
 
 ### 1. update and install packages
 
