@@ -6,7 +6,7 @@
 
 Download last version of Debian 12
 
-<img src="https://o.remove.bg/downloads/19feda99-bb22-4fe4-81a5-2b943ffc5cc2/png-clipart-docker-microservices-application-software-cloud-computing-software-deployment-cloud-computing-text-logo-removebg-preview.png">
+<img src="https://i0.wp.com/techtutorialsite.com/wp-content/uploads/2021/04/docker-1.png?resize=840%2C216&ssl=1">
 
 ### 1. update and install packages
 
