@@ -6,7 +6,7 @@
 
 Download last version of Debian 12
 
-<img src="https://icon2.cleanpng.com/20181122/rxq/kisspng-docker-application-software-asp-net-core-microserv-docker-logo-software-logo-5bf733d4330549.613671021542927316209.jpg">
+<img src="https://o.remove.bg/downloads/19feda99-bb22-4fe4-81a5-2b943ffc5cc2/png-clipart-docker-microservices-application-software-cloud-computing-software-deployment-cloud-computing-text-logo-removebg-preview.png">
 
 ### 1. update and install packages
 
