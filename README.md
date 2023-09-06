@@ -57,7 +57,9 @@ sudo docker run hello-world
 docker volume create portainer_data
 ```
 
-### install portainer
+<h1># portainer installation</h1>
+
+<img src="https://staticintl.cloudcachetci.com/cms/backend-cms/abjS070_portainer%402x.png">
 
 > Community Edition
 
